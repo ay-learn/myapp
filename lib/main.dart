@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             const Text(
-              'name',
+              'Name',
               style: TextStyle(
                 fontSize: 14,
                 color: Color(grey400),
