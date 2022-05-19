@@ -29,6 +29,13 @@ class MyApp extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
+            const Center(
+              child: Image(
+                height: 100,
+                image: AssetImage('assets/images/img1.png'),
+              ),
+            ),
+            const SizedBox(height: 40),
             const Text(
               'Name',
               style: TextStyle(
@@ -61,13 +68,8 @@ class MyApp extends StatelessWidget {
             const SizedBox(height: 20),
             Row(
               children: const <Widget>[
-                Text(
-                  'cc ',
-                  style: TextStyle(
-                    fontSize: 10,
-                    color: Color(grey50),
-                  ),
-                ),
+                Icon(Icons.email),
+                SizedBox(width: 4),
                 Text(
                   'ayoub.elmhamdi@gmail.com',
                   style: TextStyle(
